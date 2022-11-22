@@ -1,0 +1,95 @@
+body{
+    background-color: slategrey;
+    min-height: 800px; 
+    background-position: center;
+      margin: 0px
+  }
+  
+  .navbar{
+      display:flex;
+      width:100%;
+      background-color: grey;
+      font-family: sans-serif ;
+      height: 40px;
+      justify-content: center;
+      box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+      border-top: gold 5px solid;
+      position: fixed;
+      top:60px;
+  }
+  
+  .navbar > .navItem {
+    color: #fff;
+    text-decoration: none;
+    border-left: #F2E6D8 1px solid;
+    border-right: #F2E6D8 1px solid;
+    padding: 10px;
+    transition: 0.3s;
+  } 
+  
+  .navItem:hover {
+    color: #000;
+    background: #F2E6D8
+  }
+  
+  .navbar > .navItem > a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbar > .navItem > a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  header{
+  display: block;
+  width: 100%;
+  background-color: darkslategrey;
+  font-family: sans-serif ;
+  font-weight: bold;
+  color: rgb(229, 205, 174);
+  font-size: 50px ;
+  text-align: center;
+  height: 60px;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+  
+  
+  }
+
+
+  h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 175px;
+    text-shadow: 2px 2px 5px darkslategrey;
+
+  }
+
+
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: darkslategrey;
+  color: rgb(229, 205, 174);
+  padding: 32px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+  position:relative;
+  top: 60%;
+  left: 40%;
+  font-family: sans-serif;
+  font-size: 40px;
+  
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: darkslategrey;
+}

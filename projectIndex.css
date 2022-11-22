@@ -1,0 +1,128 @@
+body{
+  background-color: slategrey;
+    margin: 0px
+}
+
+.navbar{
+    display:flex;
+    width:100%;
+    background-color: grey;
+    font-family: sans-serif ;
+    height: 40px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border-top: gold 5px solid;
+    position: fixed;
+    top:60px;
+}
+
+.navbar > .navItem {
+  color: #fff;
+  text-decoration: none;
+  border-left: #F2E6D8 1px solid;
+  border-right: #F2E6D8 1px solid;
+  padding: 10px;
+  transition: 0.3s;
+} 
+
+.navItem:hover {
+  color: #000;
+  background: #F2E6D8
+}
+
+.navbar > .navItem > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar > .navItem > a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+header{
+display: block;
+width: 100%;
+background-color: darkslategrey;
+font-family: sans-serif ;
+font-weight: bold;
+color: rgb(229, 205, 174);
+font-size: 50px ;
+text-align: center;
+height: 60px;
+position: fixed;
+overflow: hidden;
+z-index: 10;
+
+
+}
+
+.segment{
+  color: white;
+  background-color: slategrey;
+  font-family: sans-serif ;
+  padding-left: 5px;
+}
+
+h4{
+  font-weight: bolder;
+  color: #F2E6D8;
+  font-size: 20px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://car-images.bauersecure.com/wp-images/3196/best_hot_hatch_merc.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+    
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 { 
+    /* The image used */
+    background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/1-volkswagen-golf-r-2021-rt-hero-front.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax3 { 
+    /* The image used */
+    background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/1-audi-rs3-2021-first-drive-review-hero-front.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax4 { 
+    /* The image used */
+    background-image: url("https://media.autoexpress.co.uk/image/private/s--egV_8mse--/v1652263083/evo/2022/05/AC%20Schnitzer%20ACS1%202022%20review-7.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

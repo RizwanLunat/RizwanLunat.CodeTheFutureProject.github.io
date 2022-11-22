@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <title>Pick a Favourite Page</title>
+        <link rel="stylesheet" type="text/css" href="pickFavourite.css" />
+    </head>
+    <body>
+
+        <header>Super Hot Hatchbacks</header>
+        <navbar>NavBar</navbar>
+       
+        <div class="navbar flex-container">
+            <a class="navItem" href="projectIndex.html">Home</a>
+            <a class="navItem" href="pickFavourite.html">Pick a Favourite</a>
+            <a class="navItem" href="contactUs.html">Contact Us</a>
+          </div>
+
+          <h4>What is your favourite Super Hatch?</h4>
+          <div class="container">
+            <form action="./pickFavouriteSuccess.html">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+             
+              
+              <label for="select">Choose a Car</label>
+              <select id="select" name="select">
+                <option selected hidden disabled>Select a Car</option>
+                <option value="merc">Mercedes-AMG A45 S</option>
+                <option value="golf">Volkswagen Golf R</option>
+                <option value="audi">Audi RS3</option>
+                <option value="bmw">BMW M135i</option>
+              </select>
+          
+              <label for="subject">Why?</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          
+              
+              <input type="submit" value="Submit">
+              
+          
+            </form>
+</html>
